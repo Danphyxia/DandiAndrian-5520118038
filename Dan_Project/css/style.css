@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+*{margin:0; padding:0; border:0; outline:0}
+body{font-family: 'Open Sans', sans-serif; font-size:13px; color:#666; line-height:21px}
+
+/*GENERIC CSS*/
+h1, h2, h3{font-size:22px; color:#13608d; margin:0 0 15px; font-weight:600; text-transform:uppercase; line-height:34px}
+h2{margin:60px 0 50px; text-transform:uppercase; text-align:center;}
+h3{color:#222; margin:0 0 12px; font-size:16px}
+a, .fa, .btn{transition:all ease-in-out .3s; display:inline-block}
+.footer{background:#186195}
+.nomargin{margin:0}
+.btn-white{color:#000000; border-color:#349ad5; background:#fff; margin-top:10px; text-transform:uppercase; border-radius:0; font-size:11px}
+.btn-white .fa{padding-right:0}
+.main-header{background:#339ad5}
+.noradius{border-radius:0 !important}
+.welcome-content{margin-top:20px}
+a.blue, .blue{color:#599ec9}
+a.admission-icon:hover{background:#339ad5}
+.pl0{padding-left:0}
+section figure{margin-bottom:15px}
+.mrb65{margin-bottom:65px}
+.text-green{color:#81c341}
+.btn-transparent{background:none; color:rgb(255, 255, 255); border-color:#7ebcd0}
+.transparent{background:none}
+.semi-transparent{background:rgba(255,255,255,0.9)}
+.btn-inverse{background:#266ea2; color:#fff; border-color:#266ea2}
+.panel-default{background:#f4f4f4; border:none}
+.panel-default .panel-body{padding:10px}
+section .panel{box-shadow:none}
+.mid-banner-nobg{background-color:transparent !important}
+
+/*HOVER CSS*/
+.recent-notice a:hover{text-decoration:underline}
+.btn-white .fa{transition:none}
+.btn-white:hover{background:#349ad5; color:#fff}
+.mid-banner .btn-white:hover{background:#7ebcd0}
+footer .btn:hover{border-color:#349ad5}
+footer li a:hover{text-decoration:none; color:#e8e8e8}
+.event-box:hover{background:#f0f0f0}
+.event-box .info p.lead a:hover {color: #339AD5; text-decoration:none}
+
+
+/*HEADER CSS*/
+.main-header{min-height:160px; padding:40px 0; background:url(../images/Univ.png) no-repeat scroll center #339ad5; background-size:contain}
+
+/*NAV CSS*/
+.navbar{margin-bottom:0; border:none}
+.navbar-nav>li>a{letter-spacing:0.7px}
+nav,.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .mid-banner{background:#13608d}
+.navbar-nav>li>a, .admission-notice p.title{font-size:14px; color:#fff; text-transform:uppercase; transition:none;}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus, .nav>li>a:hover, .nav>li>a:focus, .navbar-nav>li>.dropdown-menu, .navbar-nav>li:hover>a{background:#0c4b70}
+.navbar-toggle .icon-bar{background:#fff}
+.navbar-nav>li>.dropdown-menu{border:none; padding:0}
+.navbar-nav>li>.dropdown-menu>li>a{color:#fff; padding:8px 20px; font-size:13px}
+
+/*SLIDER CSS*/
+#slider img{width:100%}
+.carousel-caption{font-size:30px; font-weight:600; bottom:50px}
+.carousel-indicators li{border:2px solid #339AD5; background:#fff}
+
+
+.welcome-content h1{margin-bottom:5px}
+.admission-notice{margin-top:34px; border:1px solid #ddd; padding:10px ; box-shadow:0 0 5px rgba(0,0,0,0.1); position:relative; overflow:hidden}
+.admission-icon .fa-graduation-cap{font-size:64px; color:#fff}
+.admission-icon{height:100px; width:100px; background:#f90; border-radius:50%; padding:23px 11px; margin-top:10px}
+.admission-notice p.title{color:#222; font-weight:600; margin-bottom:15px}
+.admission-notice .small{font-size:11px; padding:3px; font-weight:600}
+.admission-notice p.text-muted{line-height:16px}
+
+.ribbon{background:#c00; color:#fff; position:absolute; top:12px; right:-22px; line-height:normal; width:90px; transform:rotate(46deg); text-align:center}
+
+
+.mid-banner{padding:30px 0}
+.mid-banner h1, .mid-banner h3{color:#fff}
+.mid-banner h3{font-weight:400; margin-bottom:22px}
+.mid-banner h1{margin-bottom:22px}
+
+.chairman-message figure{margin:0 15px 0 0}
+.chairman-message .btn{margin-top:5px}
+.chairman-message figure p{margin-top:5px}
+.chairman-message figure p .date{display:block; font-size:85%; color:#999; line-height:13px; font-style:italic}
+.college-tour figure{position:relative; margin-bottom:0}
+.college-tour figure .btn{position:absolute; bottom:20px; left:42%}
+.college-tour .panel-default{min-height:555px}
+
+.features .admission-icon{height:75px; width:75px; padding: 16px 0; float:left}
+.features .admission-icon .fa{font-size:45px; padding-right:0; display:block; text-align:center}
+.features{color:#f0f0f0}
+.features .text{padding-left:90px} 
+.features .text h3{margin-bottom:5px}
+.features .text p{margin-bottom:0}
+
+.testimonial img{margin:0 auto 15px; border:2px solid #13608d}
+.testimonial figcaption{max-width:755px; margin:0 auto}
+.testimonial figcaption .fa{font-size:34px; color:#222; text-shadow:1px 1px 3px #ccc; padding-right:10px}
+#testimonial-slider .carousel-indicators{position:inherit; margin:10px auto !important; left:auto; bottom:0}
+#testimonial-slider .carousel-indicators li{border:2px solid #13608d;}
+
+
+.event-box{height:90px; padding:10px 15px; background:#f4f4f4; margin-bottom:20px}
+.event-box .date{height:70px; width:65px; background:#339ad5; color:#fff; text-align:center; float:left; margin-right:20px}
+.event-box .date .day{display:block; background:#fff; font-size:24px; color:#555; font-weight:600; height:50px; line-height:45px}
+.event-box .info{padding-top:5px}
+.event-box .info p.lead{font-size:16px;margin-bottom:12px}
+.event-box .info p.lead a{color:#999; }
+.event-box .info .small{font-weight:600; color:#222}
+.panel .embed-responsive.embed-responsive-16by9{padding-bottom:77.25%}
+
+.associations img{margin:0 auto}
+.associations .container{max-width:1100px}
+
+
+footer{padding:40px 0 15px}
+footer li a, footer, footer form .form-control, .copyright p{color:#c9c9c9}
+footer li a{display:flex}
+footer li a .fa{padding-top:5px}
+footer h3{color:rgb(0, 0, 0)}
+footer ul{margin-left:4px}
+footer ul li{margin-bottom:3px}
+footer p.lead{font-size:14px; font-weight:600; margin-bottom:6px}
+footer p.lead span{border-bottom:2px solid #3599d5;}
+footer hr{border-top:1px solid #1f6ba1; border-bottom:1px solid #125888; margin:5px 0 8px}
+footer form .form-control{height:29px; background:#0c5280; border-color:#0c5280}
+footer form textarea.form-control{height:73px}
+
+.copyright{padding:14px 0; background:#0c5280; border-top:1px solid #285a86}
+.copyright p{margin-top:5px}
+
+
+@media(min-width:768px){
+.navbar-nav>li>.dropdown-menu{border-top:2px solid #389BD5; min-width:210px; border-radius:0; visibility:hidden; display:block; opacity:0}
+.navbar-nav>li:hover .dropdown-menu{display:block; visibility:visible; opacity:0.97; transition:ease-in all .25s}
+.welcome-content{padding-right:0}
+.chairman-message figure{float:left}
+}
+@media(min-width:1200px){
+.col-lg-9{padding-left:0}
+}
+
+@media(max-width:1300px){
+.recent-notice{max-height:330px; overflow:auto; min-height:1px}
+
+}
+
+@media(max-width:1200px){
+.recent-notice{max-height:280px}
+.admission-notice .col-xs-6{float:none; width:100%; text-align:center}
+.pl0{padding-left:15px}
+.features .col-lg-3{margin-bottom:25px}
+.events-gallery .col-lg-3 figure{display:inline-block; margin-right:10px}
+}
+@media(max-width:992px){
+.notice-overlay, .recent-notice{position:inherit; width:100%; max-height:500px; overflow:visible; max-width:100%}
+.notice-overlay .container{position:static}
+.carousel-indicators{display:none}
+#slider{background: rgba(51,154,213,0.95);}
+.features-top .col-md-3{margin-bottom:25px}
+footer .col-md-3{margin-bottom:25px}
+.copyright p{text-align:center}
+}
+@media(max-width:768px){
+.college-tour figure .btn{left:34%}
+.event-box{height:auto}
+.event-box .date{margin-bottom:10px}
+.copyright a{display:block}
+.copyright a img{margin:0 auto}
+.main-header{background:#339ad5}
+.carousel-caption {
+    font-size: 16px;
+    font-weight: 600;
+    bottom: 0;
+}
+.search-box{left:0; right:auto}
+}
